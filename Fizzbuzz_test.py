@@ -2,6 +2,6 @@ import unittest
 import fizzbuzz
 class TestCase(unittest.TestCase):
     def test1(self):
-        self.assertEqual(fizzbuzz.code(5), "Fizz")
+        self.assertEqual(fizzbuzz.code(), "12Fizz4BuzzFizz78FizzBuzz11Fizz1314Fizzbuzz1617Fizz19BuzzFizz2223FizzBuzz26Fizz2829Fizzbuzz3132Fizz34BuzzFizz3738FizzBuzz41Fizz4344Fizzbuzz4647Fizz49BuzzFizz5253FizzBuzz56Fizz5859Fizzbuzz6162Fizz64BuzzFizz6768FizzBuzz71Fizz7374Fizzbuzz7677Fizz79BuzzFizz8283FizzBuzz86Fizz8889Fizzbuzz9192Fizz94BuzzFizz9798FizzBuzz")
 
 unittest.main()
